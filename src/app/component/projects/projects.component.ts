@@ -10,14 +10,14 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   projects = [
     {
-      name: 'Portfolio Website',
-      description: 'A personal portfolio to showcase my skills and projects.',
-      link: 'https://github.com/yourusername/portfolio'
+      name: 'OpenStreet Map Integration Project',
+      description: 'Developed an interactive map application using Angular and Leaflet.js for real-time location visualization.',
+      link: 'https://github.com/shikha061987/Open-Street-Map'
     },
     {
-      name: 'E-commerce App',
-      description: 'An online store built with Angular and Firebase.',
-      link: 'https://github.com/yourusername/ecommerce'
+      name: 'Grocery List Management Application',
+      description: 'Built a dynamic Grocery List application, enabling users to add and remove grocery items with mock data integration.',
+      link: 'https://github.com/shikha061987/grocery'
     }
   ];
 }
