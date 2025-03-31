@@ -1,0 +1,31 @@
+<!--<section id="certificates">
+    <h2>Certificates</h2>
+    <div *ngFor="let certificate of certicatesArr">
+      <h4>{{ certificate.name }}</h4>
+      <p>{{ certificate.description }}</p>
+      <img [src]="certificate.image" alt="{{ certificate.name }}" width="200" [class.zoomed]="isZoomed" 
+      (click)="toggleZoom(certificate)">
+
+    </div>
+  </section>
+
+  <div id="certificates" *ngFor="let certificate of certicatesArr">
+    <h4>{{ certificate.name }}</h4>
+    <p>{{ certificate.description }}</p>
+    <img [src]="certificate.image" alt="{{ certificate.name }}" width="200"
+         [class.zoomed]="certificate.isZoomed"
+         (click)="toggleZoom(certificate)">
+  </div>-->
+
+  <div id="certificates" *ngFor="let certificate of certicatesArr">
+    <h4>{{ certificate.name }}</h4>
+    <p>{{ certificate.description }}</p>
+    <img [src]="certificate.image" alt="{{ certificate.name }}" width="200"
+         class="zoom-thumbnail"
+         (click)="toggleZoom(certificate.image)">
+  </div>
+  
+  <!-- Zoomed Image Overlay -->
+  <div class="zoom-overlay" *ngIf="zoomedImage" (click)="toggleZoom()">
+    <img [src]="zoomedImage" class="zoomed-img">
+  </div>
