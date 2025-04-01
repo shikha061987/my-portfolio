@@ -15,6 +15,8 @@
           "options": {
             "outputPath": "docs",
             "deployUrl": "/my-portfolio/",
+              "baseHref": "/my-portfolio/",
+
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -24,10 +26,10 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public",
-                "output": "/assets"
-              },
-              "src/404.html"
+                "input": "public"
+                
+                
+              }
             ],
             "styles": [
               "@angular/material/prebuilt-themes/azure-blue.css",
