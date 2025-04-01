@@ -21,28 +21,36 @@ export class CertificatesComponent {
   }
   certicatesArr = [
     {
-      name: 'Angular Certification (Sahosofttech, 2024)',
+      name: '🎓 Angular Certification (Sahosofttech, 2024)',
       description: 'Advanced knowledge of Angular development, component-based architecture, and RxJS.',
-     
-      //image: '/Certificate.jpg' ,// Correct path
-     // image: 'https://drive.google.com/uc?id=0B7poT3YZUOfEdTRETHBucGQxc0U',
      image: 'https://i.imgur.com/GdhkNtM.jpg', // Replace with actual URL
-
-
-      //https://i.imgur.com/iwzAO4n.png
       isZoomed: false
 
     },
     {
-      name: 'TypeScript Certification (Sahosofttech, 2024)',
+      name: '🎓 TypeScript Certification (Sahosofttech, 2024)',
       description: 'Strong understanding of TypeScript, type safety, and object-oriented programming concepts.',
       image: 'https://i.imgur.com/4kJ6u4h.jpg', // Add your image URL or path here
       isZoomed: false
 
     },
     {
-      name:'ESl Conversation Club Management Officer (Volunteer) - Lanier Technical College',
+      name:'🤝 ESl Conversation Club Management Officer (Volunteer) - Lanier Technical College',
       image: 'https://i.imgur.com/qGPqADV.jpg', // Add your image URL or path here
+      isZoomed: false
+
+    },
+
+    {
+      name:'🏆 Award for Performer of the Month in Development',
+      image: 'https://i.imgur.com/eAH4kEQ.jpg', // Add your image URL or path here
+      isZoomed: false
+
+    },
+
+    {
+      name:'🎓 Master of Computer Application Certificate',
+      image: 'https://i.imgur.com/gbjgZhE.jpg', // Add your image URL or path here
       isZoomed: false
 
     }
@@ -53,4 +61,3 @@ export class CertificatesComponent {
     console.log(`Component initialized: ${this.certicatesArr[0].image}`);
   }
 }
-

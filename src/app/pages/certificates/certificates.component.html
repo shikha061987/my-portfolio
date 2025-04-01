@@ -1,15 +1,12 @@
 
 
 <div id="certificates" *ngFor="let certificate of certicatesArr">
-  <h4>{{ certificate.name }}</h4>
+  <h3>{{ certificate.name }}</h3>
   <p>{{ certificate.description }}</p>
-
-  
-
   <img [src]="certificate.image" alt="Imgur Image" width="200"
-
-    (click)="toggleZoom(certificate.image)">
+   (click)="toggleZoom(certificate.image)">
 </div>
+
 
 <!-- Zoomed Image Overlay -->
 <div class="zoom-overlay" *ngIf="zoomedImage" (click)="toggleZoom()">

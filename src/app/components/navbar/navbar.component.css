@@ -1,9 +1,13 @@
 #nav-bar{
+
     text-align:center;
-
     background-color: #f4f4f4;
-
-  
-
+    height: 100px;
 
 }
+.active {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 5px 10px;
+    border-radius: 1px;
+  }
