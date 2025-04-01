@@ -16,6 +16,7 @@
             "outputPath": "docs",
             "deployUrl": "/my-portfolio/",
             "baseHref": "/",
+
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
