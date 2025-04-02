@@ -1,5 +1,5 @@
 
-<section id="experience">
+<div id="experience">
     <p>4 Years of experience in Analysis, Design, Development, Implementation, and Testing of user interface and experience of software application.<br/><br/>
         Built multiple personal projects to gain hands-on experience with Angular.
        Extensive experience in UI development using - Angular Framework,Type Script, HTML, CSS, JavaScript,Bootstrap,Jquery and Material Design.
@@ -12,6 +12,16 @@
        <p>
        Worked as a Software Engineer at Liquid Hub, Classic Informatics, and 4C Plus, handling project analysis, design, coding, and testing.
     </p>
-      
+  </div>
+    <h3>Work Experience : </h3>
 
-  </section>
+    <div id="companyDetails" *ngFor="let experience of companyExperience">
+ 
+      <p ><strong>Company Name:</strong> {{ experience.name }}</p>
+        <p><strong>Postion:</strong> {{ experience.postion }}</p>
+        <p><strong>Time Duration:</strong> {{ experience.timeDuration }}</p>
+        <p><strong>Location:</strong> {{ experience.location }}</p> <br/>
+    </div>
+ 
+
+  

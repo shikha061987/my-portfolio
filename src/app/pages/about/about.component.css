@@ -1,13 +1,15 @@
   .container {
     display: flex; /* Enables inline positioning */
     gap: 10px; /* Adds space between divs */
-    padding: 55px;
+    padding-left: 30px;
+    padding-top: 35px;
+
 
   }
   
   .box {
     flex: 1; /* Makes both divs equal width */
-    padding: 25px;
+    padding-left: 15px;
     text-align: left;
     padding-top: 0px;
 
