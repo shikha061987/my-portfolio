@@ -1,0 +1,10 @@
+.responsive-div {
+    width: 80%; /* Default width for larger screens */
+    padding: 25px;
+  }
+  
+  @media (max-width: 768px) { /* When screen width is 768px or smaller */
+    .responsive-div {
+      width: 100%; /* Full width for mobile */
+    }
+  }
