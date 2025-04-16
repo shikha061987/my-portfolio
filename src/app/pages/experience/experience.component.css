@@ -10,7 +10,7 @@ h3{
   padding-left: 25px;
   text-decoration: underline;
 }
-.flex-container {
+.experience-container {
   display: flex;
   flex-wrap: wrap; /* allows boxes to move to next line on smaller screens */
   gap: 60px;
@@ -19,7 +19,7 @@ h3{
 
 }
 
-.flex-box {
+.experience-box {
   width: 290px;
  
   padding-left: 45px;

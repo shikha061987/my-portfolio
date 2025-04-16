@@ -1,11 +1,11 @@
-import { NgFor, NgIf } from '@angular/common';
+import { NgIf } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-certificates',
-  imports: [NgFor,NgIf],
+  imports: [NgIf],
   templateUrl: './certificates.component.html',
-  styleUrl: './certificates.component.css'
+  styleUrl: './certificates.component.scss'
 })
 export class CertificatesComponent {
   isZoomed: boolean = false;
@@ -21,19 +21,27 @@ export class CertificatesComponent {
   }
   certicatesArr = [
     {
-      name: '🎓 Angular Certification (Sahosofttech, 2024)',
-      description: 'Advanced knowledge of Angular development, component-based architecture, and RxJS.',
-     image: 'https://i.imgur.com/GdhkNtM.jpg', // Replace with actual URL
+      name: '🎓 CSS Certification (Hackerrank)',
+      description: 'Strong understanding of CSS, including layout and responsive design,Skilled in CSS for styling, flexbox, and grid layouts and modern design techniques.',
+      image: 'https://imgur.com/FA9qjAc.jpg', // Add your image URL or path here
       isZoomed: false
 
     },
-    {
+     {
       name: '🎓 JavaScript Certification (Simplilearn SkillUp)',
       description: 'Strong understanding of JavaScript with knowledge of functions, events, and async operations.',
       image: 'https://imgur.com/1Jo8Clw.jpg', // Add your image URL or path here
       isZoomed: false
 
     },
+    {
+      name: '🎓 Angular Certification (Sahosofttech, 2024)',
+      description: 'Advanced knowledge of Angular development, component-based architecture, and RxJS.',
+     image: 'https://i.imgur.com/GdhkNtM.jpg', // Replace with actual URL
+      isZoomed: false
+
+    },
+  
 
     {
       name: '🎓 TypeScript Certification (Sahosofttech, 2024)',
@@ -43,17 +51,19 @@ export class CertificatesComponent {
 
     },
    
-    {
-      name: '🎓 CSS Certification (Hackerrank)',
-      description: 'Strong understanding of CSS, including layout and responsive design,Skilled in CSS for styling, flexbox, and grid layouts and modern design techniques.',
-      image: 'https://imgur.com/FA9qjAc.jpg', // Add your image URL or path here
-      isZoomed: false
-
-    },
+  
     {
       name: '🎓 JavaScript Certification (Hackerrank)',
       description: 'Strong understanding of JavaScript with knowledge of functions, events, and async operations.',
       image: 'https://imgur.com/XhfgA4i.jpg', // Add your image URL or path here
+      isZoomed: false
+
+    },
+   
+
+    {
+      name:'🏆 Award for Performer of the Month in Development',
+      image: 'https://i.imgur.com/eAH4kEQ.jpg', // Add your image URL or path here
       isZoomed: false
 
     },
@@ -63,14 +73,6 @@ export class CertificatesComponent {
       isZoomed: false
 
     },
-
-    {
-      name:'🏆 Award for Performer of the Month in Development',
-      image: 'https://i.imgur.com/eAH4kEQ.jpg', // Add your image URL or path here
-      isZoomed: false
-
-    },
-
     {
       name:'🎓 Master of Computer Application Certificate',
       image: 'https://i.imgur.com/gbjgZhE.jpg', // Add your image URL or path here

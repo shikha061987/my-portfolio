@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   selector: 'app-projects',
   imports: [NgFor,NgIf],
   templateUrl: './projects.component.html',
-  styleUrl: './projects.component.css'
+  styleUrl: './projects.component.scss'
 })
 export class ProjectsComponent {
   zoomedImage: string | null = null; // Stores the zoomed image
