@@ -1,14 +1,25 @@
-
+<!--
 
 <div id="certificates" *ngFor="let certificate of certicatesArr">
   <h3>{{ certificate.name }}</h3>
   <p>{{ certificate.description }}</p>
-  <img [src]="certificate.image" alt="Imgur Image" width="200"
+  <img [src]="certificate.image" alt="Imgur Image" width="400"
    (click)="toggleZoom(certificate.image)">
-</div>
+</div>-->
 
 
 <!-- Zoomed Image Overlay -->
 <div class="zoom-overlay" *ngIf="zoomedImage" (click)="toggleZoom()">
   <img [src]="zoomedImage" class="zoomed-img">
 </div>
+
+<div class="flex-container">
+
+  <div class="flex-box" *ngFor="let certificate of certicatesArr">
+
+    <h3>{{ certificate.name }}</h3>
+    <p>{{ certificate.description }}</p>
+    <img [src]="certificate.image" alt="Imgur Image" width="200"
+     (click)="toggleZoom(certificate.image)">
+    </div>
+    </div>

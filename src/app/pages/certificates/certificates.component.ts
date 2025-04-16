@@ -28,9 +28,32 @@ export class CertificatesComponent {
 
     },
     {
+      name: '🎓 JavaScript Certification (Simplilearn SkillUp)',
+      description: 'Strong understanding of JavaScript with knowledge of functions, events, and async operations.',
+      image: 'https://imgur.com/1Jo8Clw.jpg', // Add your image URL or path here
+      isZoomed: false
+
+    },
+
+    {
       name: '🎓 TypeScript Certification (Sahosofttech, 2024)',
       description: 'Strong understanding of TypeScript, type safety, and object-oriented programming concepts.',
       image: 'https://i.imgur.com/4kJ6u4h.jpg', // Add your image URL or path here
+      isZoomed: false
+
+    },
+   
+    {
+      name: '🎓 CSS Certification (Hackerrank)',
+      description: 'Strong understanding of CSS, including layout and responsive design,Skilled in CSS for styling, flexbox, and grid layouts and modern design techniques.',
+      image: 'https://imgur.com/FA9qjAc.jpg', // Add your image URL or path here
+      isZoomed: false
+
+    },
+    {
+      name: '🎓 JavaScript Certification (Hackerrank)',
+      description: 'Strong understanding of JavaScript with knowledge of functions, events, and async operations.',
+      image: 'https://imgur.com/XhfgA4i.jpg', // Add your image URL or path here
       isZoomed: false
 
     },

@@ -1,27 +1,33 @@
-
 <div id="experience">
-    <p>4 Years of experience in Analysis, Design, Development, Implementation, and Testing of user interface and experience of software application.<br/><br/>
-        Built multiple personal projects to gain hands-on experience with Angular.
-       Extensive experience in UI development using - Angular Framework,Type Script, HTML, CSS, JavaScript,Bootstrap,Jquery and Material Design.
-       I have worked for 4 years as an iOS Developer, developing iPhone/iPad applications.
+  <p><b>I have 4 years of experience in the analysis, design, development, implementation, and testing of user
+      interfaces and software applications.</b><br /><br />
 
-       Currently, I am working as a Management Officer volunteer at Lanier Tech.
+    I have built multiple personal projects to gain hands-on experience with Angular. I have extensive experience in UI
+    development using Angular Framework, TypeScript, HTML, CSS, JavaScript, Bootstrap, jQuery, and Material Design.
 
-       <br/><br/>
-       Team Player with good analytical, technical, problem solving, communication and interpersonal skills, with ability to interact with individuals at all levels and can work as a part of a team as well as independently.
-       <p>
-       Worked as a Software Engineer at Liquid Hub, Classic Informatics, and 4C Plus, handling project analysis, design, coding, and testing.
-    </p>
+    Previously, I worked for 4 years as an iOS Developer, developing iPhone and iPad applications. Currently, I am
+    working as a Management Officer (volunteer) at Lanier Tech.<br /><br />
+
+    I specialize in front-end development using Angular. I have hands-on experience building scalable and modular
+    applications using Angular CLI, component-based architecture, and reactive forms. I'm familiar with integrating REST
+    APIs, optimizing performance, and writing unit tests to ensure code quality. I also follow responsive design
+    principles and use tools like Git and CI/CD pipelines to streamline development workflows.<br /><br />
+
+    I'm a team player with strong analytical, technical, problem-solving, communication, and interpersonal skills. I can
+    collaborate effectively at all levels and work independently or as part of a team.
+
+    I have previously worked as a Software Engineer at Liquid Hub, Classic Informatics, and 4C Plus, handling project
+    analysis, design, coding, and testing.
+
+</div>
+<h3>Work Experience : </h3>
+
+
+<div class="flex-container">
+  <div class="flex-box" *ngFor="let experience of companyExperience">
+    <p><strong>Company Name:</strong> {{ experience.name }}</p>
+    <p><strong>Position:</strong> {{ experience.position }}</p>
+    <p><strong>Time Duration:</strong> {{ experience.timeDuration }}</p>
+    <p><strong>Location:</strong> {{ experience.location }}</p>
   </div>
-    <h3>Work Experience : </h3>
-
-    <div id="companyDetails" *ngFor="let experience of companyExperience">
- 
-      <p ><strong>Company Name:</strong> {{ experience.name }}</p>
-        <p><strong>Postion:</strong> {{ experience.postion }}</p>
-        <p><strong>Time Duration:</strong> {{ experience.timeDuration }}</p>
-        <p><strong>Location:</strong> {{ experience.location }}</p> <br/>
-    </div>
- 
-
-  
+</div>

@@ -3,15 +3,32 @@
     gap: 10px; /* Adds space between divs */
     padding-left: 30px;
     padding-top: 35px;
+    flex-wrap: nowrap; /* Or wrap if needed */
+
 
 
   }
   
   .box {
-    flex: 1; /* Makes both divs equal width */
     padding-left: 15px;
     text-align: left;
     padding-top: 0px;
+    text-align:top;
+width:500px;
+flex: 1;
+
+
+  }
+  .link{
+    flex: 1;
+
+    padding-left: 0px;
+
+    width:500px;
+    height: 100px;
+
+
+
 
   }
  

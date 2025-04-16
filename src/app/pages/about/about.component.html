@@ -1,18 +1,44 @@
 <div class="container">
     <div class="profile-img">
         <!--  <img src="https://i.imgur.com/YZdZz90.jpg" alt="Imgur Image" width="250">-->
-        <img src="https://i.imgur.com/kUe1LMY.jpg" alt="Imgur Image" width="250">
+        <img src="https://imgur.com/YZdZz90.jpg" alt="Imgur Image" width="250">
 
         
     </div>
     <div class="box">
+        
         <p><strong>Name:</strong> {{ profile.name }}</p>
-        <p><strong>Technology:</strong> {{ profile.description }}</p>
         <p><strong>Gender:</strong> {{ profile.gender }}</p>
         <p><strong>Nationality:</strong> {{ profile.nationality }}</p>
         <p><strong>Location:</strong> {{ profile.location }}</p>
-        <p><strong>GitHub: </strong><a href={{profile.githublink}} target="_blank">github.com/shikha061987</a></p>
-        <p><strong>LinkedIn: </strong><a href={{profile.LinkedIn}} target="_blank">linkedin.com/in/shikha061987</a></p>
-        <p><strong>Portfolio: </strong><a href={{profile.portfoliolink}} target="_blank">shikha061987.github.io</a></p>
-    </div>
+        <p><strong>Role:</strong> {{ profile.title }}</p>
+
+
+        <p><strong>Frontend Technologies:</strong> {{ profile.description }}</p>
+        <p><strong>Backend Technologies:</strong> {{ profile.backendtechnologies }}</p>
+
+        
+        <p><strong>UI Libraries & Tools:</strong> {{ profile.uiLibraries }}</p>
+        <p><strong>State Management:</strong> {{ profile.stateManagement }}</p>
+        <p><strong>Development Tools:</strong> {{ profile.developmentTools }}</p>
+
+        <p><strong>Testing:</strong> {{ profile.testingTool }}</p>
+        <p><strong>API Integration:</strong> {{ profile.apiIntegration}}</p>
+
+        <p><strong> Version Control & CI/CD:</strong> {{ profile.versionControlCD }}</p>
+        <p><strong> Authentication & Authorization:</strong> {{ profile.authentication }}</p>
+        <p><strong> Previous Experience:</strong> {{ profile.previousExperience }}</p>
+
+      
+
+       
+       
+        </div>
+
+        <div class="link">
+            <p><strong>GitHub: </strong><a href={{profile.githublink}} target="_blank">github.com/shikha061987</a></p>
+            <p><strong>LinkedIn: </strong><a href={{profile.LinkedIn}} target="_blank">linkedin.com/in/shikha061987</a></p>
+            <p><strong>Portfolio: </strong><a href={{profile.portfoliolink}} target="_blank">shikha061987.github.io</a></p>
+       
+        </div>
 </div>

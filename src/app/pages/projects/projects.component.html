@@ -1,12 +1,15 @@
 
+<div class="flex-container">
 
-    <div id="projects" *ngFor="let project of projects">
+  <div class="flex-box" *ngFor="let project of projects">
+
       <h3>{{ project.name }}</h3>
       <p>{{ project.description }}</p>
-      <img [src]="project.image" alt="{{ project.name }}" width="200"
+      <img [src]="project.image" alt="{{ project.name }}" width="400"
       class="zoom-thumbnail"
       (click)="toggleZoom(project.image)"><br/>
       <a [href]="project.link" target="_blank">View Project</a>
+    </div>
     </div>
 
    <!-- Zoomed Image Overlay -->

@@ -9,8 +9,22 @@ import { Component } from '@angular/core';
 export class AboutComponent {
   profile = 
     {
-      name: 'Shikha Rawat',
-      description: 'Angular Front End Developer',
+      name: 'Shikha Rawat ',
+      title:'Front-End Developer | Angular Specialist',
+      description: 'Angular (v14+), TypeScript, JavaScript, HTML5, CSS3',
+      backendtechnologies:'Node.js, Express.js (basic understanding)',
+
+      uiLibraries:'Angular Material, Bootstrap, Tailwind CSS',
+      stateManagement:'RxJS, NgRx ',
+      apiIntegration: 'RESTful APIs, JSON, HTTPClientModule, Interceptors, GraphQL',
+
+      testingTool:'Jasmine, Karma (Unit Testing)',
+      developmentTools: 'Visual Studio Code, Chrome DevTools',
+      versionControlCD:'Git, GitHub, GitLab, CI/CD basics (GitHub Actions, Jenkins)',
+      authentication:'JSON Web Token, OAuth (basic knowledge), Angular Route AuthGaurds',
+
+     previousExperience: "Mobile Development, Objective-C, Xcode, UIKit, CoreData",
+
       gender: 'Female',
       nationality: 'Indian',
       location: 'Cumming, GA',
