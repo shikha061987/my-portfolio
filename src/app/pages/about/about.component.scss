@@ -1,11 +1,12 @@
 
   .container {
-    display: flex;           // 📌 This arranges child divs in a row
-    gap: 25px;               // Optional: adds space between them
+    display: flex;          
+    gap: 25px;   
+    padding: 10px;
   }
   
   .profile-img {
-    flex: 2; // takes 2/3 of space
+    flex: 2;
      //width: 100%;
      max-width: 300px;
      height: 100%;
@@ -15,8 +16,8 @@
 
  
      img {
-       width: 100%; // ✅ Ensure image fills container
-       height: 100%; // ✅ Maintain height
+       width: 100%; 
+       height: 100%; 
        object-fit: cover;
        position: relative;
        transform: translateZ(0);
