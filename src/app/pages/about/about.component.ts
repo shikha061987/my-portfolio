@@ -22,6 +22,8 @@ export class AboutComponent {
       developmentTools: 'Visual Studio Code, Chrome DevTools',
       versionControlCD:'Git, GitHub, GitLab, CI/CD basics (GitHub Actions, Jenkins)',
       authentication:'JSON Web Token, OAuth (basic knowledge), Angular Route AuthGaurds',
+/*Design & UI/UX:Basic knowledge of visual design, wireframing, prototyping with tools Figma, canva*/
+design:'Basic knowledge of visual design, wireframing, prototyping with tools Figma, canva',
 
      previousExperience: "Mobile Development, Objective-C, Xcode, UIKit, CoreData",
 

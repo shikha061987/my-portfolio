@@ -59,7 +59,14 @@ export class CertificatesComponent {
       isZoomed: false
 
     },
-   
+    {
+      name: '🎓 Graphic Design and UI/UX Design Certification (Simplilearn SkillUp)',
+      description: 'knowledge of visual design principles, color theory, layout design, wireframing, and prototyping using tools such as Figma and Adobe XD',
+      image: 'https://imgur.com/zNQcex2.jpg', // Add your image URL or path here
+      isZoomed: false
+
+    },
+    
 
     {
       name:'🏆 Award for Performer of the Month in Development',

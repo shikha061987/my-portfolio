@@ -19,7 +19,18 @@ export class ProjectsComponent {
 
   projects = [
     {
-      name: '1) OpenStreet Map Integration Project',
+      
+      name: '1) ShopNest E-Commerce Application',
+      description: 'Developed a responsive e-commerce application using Angular 19, integrating CSS, Angular Material, and Bootstrap. Implemented REST server Api and fetched data using behavioral observable.Used Angular Router and HttpClient for a full SPA experience. Implement search products by category features, and show shopping product listing, product add to cart, remove from cart, and details shopping product features. ',
+      link: 'https://github.com/shikha061987/Open-Street-Map',
+      image: 'https://imgur.com/xtUCQoS.png' ,// Add your image URL or path here
+      isZoomed: false
+
+
+    },
+    {
+      
+      name: '2) OpenStreet Map Integration Project',
       description: 'Developed an interactive map application with selected brand location from dropdown list using Angular and Leaflet.js for real-time location visualization.',
       link: 'https://github.com/shikha061987/Open-Street-Map',
       image: 'https://i.imgur.com/HTIEdoX.png' ,// Add your image URL or path here
@@ -28,7 +39,7 @@ export class ProjectsComponent {
 
     },
     {
-      name: '2) Live Data Chart Dashboard Application',
+      name: '3) Live Data Chart Dashboard Application',
       description: 'Developed a real-time data visualization dashboard using Angular and Chart.js to display dynamic, live-updating charts.',
       link: 'https://github.com/shikha061987/Angular-Chart-Sample',
       image: 'https://imgur.com/5fPKVd0.png' ,// Add your image URL or path here
@@ -37,7 +48,7 @@ export class ProjectsComponent {
 
     },
     {
-      name: '3) Grocery List Management Application',
+      name: '4) Grocery List Management Application',
       description: 'Developed a dynamic, user-friendly web application to manage and organize grocery shopping lists. The application allows users to create, update, and delete grocery items. Data is integated with mock apis.This project focused on enhancing user experience through an intuitive interface and employing best practices in Angular development.',
       link: 'https://github.com/shikha061987/grocery-list',
       image: 'https://i.imgur.com/HJFvhaP.png' ,// Add your image URL or path here
@@ -46,7 +57,7 @@ export class ProjectsComponent {
 
     },
     {
-      name: '4) User Login Authentication Application',
+      name: '5) User Login Authentication Application',
       description: 'Developed a user authentication website using Angular, integrating various features such as login, cotact information,about us,students details,books details, and session management.	Implemented form validation and error handling for login to improve user experience and reduce errors.',
       link: 'https://github.com/shikha061987/login-auth-guard',
       image: 'https://i.imgur.com/e36ewxy.png' ,// Add your image URL or path here
