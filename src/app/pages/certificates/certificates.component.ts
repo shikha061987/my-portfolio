@@ -35,7 +35,7 @@ export class CertificatesComponent {
 
     },
     {
-      name: '🎓 Angular Certification (Sahosofttech, 2024)',
+      name: '🎓 Angular Certification (Sahosofttech)',
       description: 'Advanced knowledge of Angular development, component-based architecture, and RxJS.',
      image: 'https://i.imgur.com/GdhkNtM.jpg', // Replace with actual URL
       isZoomed: false
@@ -44,7 +44,7 @@ export class CertificatesComponent {
   
 
     {
-      name: '🎓 TypeScript Certification (Sahosofttech, 2024)',
+      name: '🎓 TypeScript Certification (Sahosofttech)',
       description: 'Strong understanding of TypeScript, type safety, and object-oriented programming concepts.',
       image: 'https://i.imgur.com/4kJ6u4h.jpg', // Add your image URL or path here
       isZoomed: false
