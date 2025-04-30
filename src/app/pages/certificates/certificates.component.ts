@@ -27,6 +27,26 @@ export class CertificatesComponent {
       isZoomed: false
 
     },
+
+    //https://imgur.com/kG8L9aI
+
+    {
+      name: '🎓 Web Development Fundamentals (IBM SkillsBuild)',
+      description: 'Strong understanding of web development tools, coding standards,user experience fundamentals, and gaining practical skills in HTML, CSS, JavaScript, and responsive web design.',
+      image: 'https://imgur.com/kG8L9aI.jpg', // Add your image URL or path here
+      isZoomed: false
+
+    },
+
+    //https://imgur.com/uaTpKTR
+    {
+      name: '🎓 Certified Web Accessibility Specialist',
+      description: 'Certified Web Accessibility Specialist (CWAS), skilled in implementing WCAG-compliant UI using semantic HTML, ARIA, and modern front-end practices. Committed to creating inclusive, high-performance web experiences across all devices and assistive technologies.',
+      image: 'https://imgur.com/uaTpKTR.jpg', // Add your image URL or path here
+      isZoomed: false
+
+    },
+
      {
       name: '🎓 JavaScript Certification (Simplilearn SkillUp)',
       description: 'Strong understanding of JavaScript with knowledge of functions, events, and async operations.',
