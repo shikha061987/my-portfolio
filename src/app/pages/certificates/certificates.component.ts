@@ -70,7 +70,13 @@ export class CertificatesComponent {
       isZoomed: false
 
     },
-   
+    {
+      name: '🎓 Git/GitHub Certification (Simplilearn SkillUp)',
+      description: 'Strong proficiency in version control using Git and GitHub, including repository management, branching and merging, resolving conflicts, collaborative workflows (e.g., Git Flow), pull requests, and issue tracking. Gained hands-on experience with open-source contribution practices and CI/CD integration basics.',
+      image: 'https://imgur.com/cUWpB3q.png', // Add your image URL or path here
+      isZoomed: false
+
+    },
   
     {
       name: '🎓 JavaScript Certification (Hackerrank)',

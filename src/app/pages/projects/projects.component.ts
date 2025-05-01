@@ -32,7 +32,7 @@ export class ProjectsComponent {
       
       name: '2) Weather Project',
       description: 'Designed and developed a responsive standalone Weather App using Angular 17+, showcasing real-time weather data for any city using the OpenWeatherMap API. The app is built using modern Angular features such as standalone components, provideHttpClient(), and functional API-based bootstrapping.',
-      link: 'https://github.com/shikha061987/Open-Street-Map',
+      link: 'https://github.com/shikha061987/weather-app',
       image: 'https://imgur.com/6i5cRvY.png' ,// Add your image URL or path here
       isZoomed: false
 
