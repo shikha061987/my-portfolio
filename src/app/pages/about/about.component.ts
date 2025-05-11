@@ -21,11 +21,11 @@ export class AboutComponent {
       testingTool:'Jasmine, Karma (Unit Testing)',
       developmentTools: 'Visual Studio Code, Chrome DevTools',
       versionControlCD:'Git, GitHub, GitLab, CI/CD basics (GitHub Actions, Jenkins)',
-      authentication:'JSON Web Token, OAuth (basic knowledge), Angular Route AuthGaurds',
-/*Design & UI/UX:Basic knowledge of visual design, wireframing, prototyping with tools Figma, canva*/
+      authentication:'JSON Web Token, Auth0, Angular Route AuthGaurds',
+      deploy:'Firebase, Githu',
+      /*Design & UI/UX:Basic knowledge of visual design, wireframing, prototyping with tools Figma, canva*/
 design:'Basic knowledge of visual design, wireframing, prototyping with tools Figma, canva',
 
-     previousExperience: "Mobile Development, Objective-C, Xcode, UIKit, CoreData",
 
       gender: 'Female',
       nationality: 'Indian',
