@@ -51,13 +51,13 @@ export class CertificatesComponent {
     //https://imgur.com/uaTpKTR
    
 
-     {
+    /* {
       name: '🎓 JavaScript Certification (Simplilearn SkillUp)',
       description: 'Strong understanding of JavaScript with knowledge of functions, events, and async operations.',
       image: 'https://imgur.com/1Jo8Clw.jpg', // Add your image URL or path here
       isZoomed: false
 
-    },
+    },*/
     {
       name: '🎓 Git/GitHub Certification (Simplilearn SkillUp)',
       description: 'Strong proficiency in version control using Git and GitHub, including repository management, branching and merging, resolving conflicts, collaborative workflows (e.g., Git Flow), pull requests, and issue tracking. Gained hands-on experience with open-source contribution practices and CI/CD integration basics.',
@@ -81,7 +81,7 @@ export class CertificatesComponent {
 
     },
 
-     {
+    /* {
       name: '🎓 Certified Web Accessibility Specialist',
       description: 'Certified Web Accessibility Specialist (CWAS), skilled in implementing WCAG-compliant UI using semantic HTML, ARIA, and modern front-end practices. Committed to creating inclusive, high-performance web experiences across all devices and assistive technologies.',
       image: 'https://imgur.com/uaTpKTR.jpg', // Add your image URL or path here
@@ -94,7 +94,7 @@ export class CertificatesComponent {
       image: 'https://imgur.com/zNQcex2.jpg', // Add your image URL or path here
       isZoomed: false
 
-    },
+    },*/
     
 
     {

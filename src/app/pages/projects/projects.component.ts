@@ -21,7 +21,7 @@ export class ProjectsComponent {
 
      {
 
-      name: '1) Angular Movie Explorer Project',
+      name: '1) Movie Explorer Project',
       description: 'Developed a responsive single-page application that allows users to explore movies, view detailed information, and search by title, genre, or rating. Implemented reusable components, utilized a JSON database to fetch data, and built a responsive UI using Bootstrap. Key features include dynamic routing, movie detail modals, and a user feedback form. Integrated Firebase Authentication and successfully deployed the application.',
       link: 'https://angular-movies-app-25f82.web.app/home',
       image: 'https://imgur.com/H0L61kz.png',// Add your image URL or path here
